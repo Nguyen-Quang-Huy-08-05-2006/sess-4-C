@@ -2,7 +2,7 @@
 int main(){
 	int year;
 	printf("nhap 1 nam");
-	scanf("%4d",&year);
+	scanf("%4d",&yyyy);
 	
 	if(yyyy%4==0&&yyyy!=100||yyyy%400==0){
 		printf("day la nam nhuan");
