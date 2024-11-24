@@ -18,7 +18,7 @@ int main(){
 		printf("ngay thang nam ho le");
 	}else if(dd>=1 && dd<= 28 && mm==2 && yyyy%4!=0){
     	printf("ngay thang nam ho le");	
-	}else if(dd>=1 && dd<=29 && mm==2 && yyyy%4==0){
+	}else if(dd>=1 && dd<=29 && mm==2 && yyyy%4==0&&yyyy!=100||yyyy%400==0){
     	printf("ngay thang nam ho le");
 	}else{
 		printf("ngay thang nam khong hop le");
