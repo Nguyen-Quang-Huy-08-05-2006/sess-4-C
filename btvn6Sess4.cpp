@@ -15,13 +15,13 @@ int main(){
 	if(soDien>=0 && soDien<50){
 		printf("tien dien thang nay la %d VND \n",giaDien*soDien);
 	}else if(soDien>=50 && soDien<100){
-		printf("tien dien thang nay la %d VND \n",(giaDien+15000)*soDien);
+		printf("tien dien thang nay la %d VND \n",(giaDien+5000)*soDien);
 	}else if(soDien>=100 && soDien<150){
-		printf("tien dien thang nay la %d VND \n",(giaDien+20000)*soDien);
+		printf("tien dien thang nay la %d VND \n",(giaDien+10000)*soDien);
 	}else if(soDien>=150 && soDien<200){
-		printf("tien dien thang nay la %d VND \n",(giaDien+25000)*soDien);
+		printf("tien dien thang nay la %d VND \n",(giaDien+15000)*soDien);
 	}else if(soDien>=200){
-		printf("tien dien thang nay la %d VND \n",(giaDien+30000)*soDien);
+		printf("tien dien thang nay la %d VND \n",(giaDien+20000)*soDien);
 	}else{
 		printf("so dien khong hop le");
 	}
