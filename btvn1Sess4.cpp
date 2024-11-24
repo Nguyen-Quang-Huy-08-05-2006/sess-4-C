@@ -6,7 +6,7 @@ int main(){
 	
 	if(number>0){
 		printf("%d la so duong \n",number);
-	}else{
+	}else if(number<0){
 		printf("%d la so am \n", number);
 	}
 	return 0;
