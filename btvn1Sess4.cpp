@@ -4,7 +4,7 @@ int main(){
 	printf("nhap vao mot so nguyen : ");
 	scanf("%d", number);
 	
-	if(number<0){
+	if(number>0){
 		printf("%d la so duong \n",number);
 	}else{
 		printf("%d la so am \n", number);
