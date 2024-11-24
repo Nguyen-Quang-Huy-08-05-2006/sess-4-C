@@ -5,7 +5,7 @@ int main(){
 	int c;
 	
 	printf("nhap vao 3 so nguyen");
-	scanf("%d %d %d", a, b, c);
+	scanf("%d %d %d", &a, &b, &c);
 	
 	if(a<b && b<c){
 		printf(" %d %d %d", a, b, c);
