@@ -5,10 +5,10 @@ int main(){
 	const int giaDien = 10000;
 	
 	printf("moi ban nhap so cu : ");
-	scanf("%d", soCu);
+	scanf("%d", &soCu);
 	
 	printf("moi ban nhap so moi : ");
-	scanf("%d", soMoi);
+	scanf("%d", &soMoi);
 	
 	int soDien = soMoi - soCu;
 	
