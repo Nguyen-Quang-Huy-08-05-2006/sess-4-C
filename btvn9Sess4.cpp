@@ -20,8 +20,8 @@ int main(){
 		if(yyyy%4==0&&yyyy%100!=0||yyyy%400==0){
 		    if(dd>0&&dd<30);{
     	              printf("ngay thang nam hop le");	
-	 }else if(dd>0&&dd<29){
-    	printf("ngay thang nam hop le");
+	        }else if(dd>0&&dd<29){
+    	            printf("ngay thang nam hop le");
 	}else{
 		printf("ngay thang nam khong hop le");
 	}
