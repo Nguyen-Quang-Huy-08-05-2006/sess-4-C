@@ -16,10 +16,12 @@ int main(){
     	printf("ngay thang nam ho le");
 	}else if(dd>=1 && dd<=30 && mm==4 && mm==6 && mm==9 && mm==11){
 		printf("ngay thang nam ho le");
-	}else if(dd>=1 && dd<= 28 && mm==2 && yyyy%4!=0){
-    	printf("ngay thang nam ho le");	
-	}else if(dd>=1 && dd<=29 && mm==2 && yyyy%4==0&&yyyy!=100||yyyy%400==0){
-    	printf("ngay thang nam ho le");
+	}else if(mm==2){
+		if(yyyy%4==0&&yyyy%100!=0||yyyy%400==0){
+		    if(dd>0&&dd<30);{
+    	              printf("ngay thang nam hop le");	
+	 }else if(dd>0&&dd<29){
+    	printf("ngay thang nam hop le");
 	}else{
 		printf("ngay thang nam khong hop le");
 	}
