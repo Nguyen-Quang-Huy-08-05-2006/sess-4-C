@@ -12,9 +12,9 @@ int main(){
 	printf("nhap vao nam");
     scanf("%4d", &yyyy);
     
-    if(dd>=1 && dd<= 31 && mm==1 && mm==3 && mm==5 && mm==7 && mm==8 && mm==11 && mm==12){
+    if(dd>=1 && dd<= 31 && mm==1 || mm==3 || mm==5 || mm==7 || mm==8 || mm==11 || mm==12){
     	printf("ngay thang nam ho le");
-	}else if(dd>=1 && dd<=30 && mm==4 && mm==6 && mm==9 && mm==11){
+	}else if(dd>=1 && dd<=30 && mm==4 || mm==6 || mm==9 || mm==11){
 		printf("ngay thang nam ho le");
 	}else if(mm==2){
 		if(yyyy%4==0&&yyyy%100!=0||yyyy%400==0){
