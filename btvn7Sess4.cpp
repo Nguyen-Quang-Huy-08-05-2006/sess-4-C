@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	int year;
+	int yyyy;
 	printf("nhap 1 nam");
 	scanf("%4d",&yyyy);
 	
